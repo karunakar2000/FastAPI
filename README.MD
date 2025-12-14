@@ -58,4 +58,7 @@ This project provides a clean web interface to view and manage AWS resources suc
 ├── index.html
 ├── Dockerfile
 ├── requirements.txt
-└── README.md
+├── README.md
+└── docs/
+    └── arch_diagram.png
+
