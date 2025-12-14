@@ -7,15 +7,10 @@ This project demonstrates a FastAPI-based AWS Operations Dashboard that allows b
 After deploying the application, users can access a browser-based dashboard where they can:
 
 ▶️ Start EC2 instances
-
 ⏹️ Stop EC2 instances
-
-📄 View EC2 instance details such as state, instance type, and public IP
-
+📄 Vie EC2 instance details such as state, instance type, and public IP
 🪣 List S3 buckets
-
 🌐 View VPCs and CIDR blocks
-
 🔐 List ACM certificates
 
 All operations are triggered using simple push buttons from the web UI, which internally call FastAPI REST endpoints connected to AWS using boto3.
