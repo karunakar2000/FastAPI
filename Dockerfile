@@ -9,7 +9,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-EXPOSE 9000
+EXPOSE 80
 
 ENTRYPOINT ["uvicorn", "main:app","--host", "0.0.0.0"]
-CMD ["--port", "9000"]
+CMD ["--port", "80"]
