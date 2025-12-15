@@ -60,5 +60,5 @@ This project provides a clean web interface to view and manage AWS resources suc
 ├── requirements.txt
 ├── README.md
 └── docs/
-    └── arch_diagram.png
+    └── FastAPI.png
 
